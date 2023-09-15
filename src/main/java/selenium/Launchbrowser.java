@@ -8,8 +8,8 @@ public class Launchbrowser{
 	 ChromeDriver driver = new ChromeDriver();
 	// EdgeDriver driver = new EdgeDriver();
 //	 FirefoxDriver drive = new FirefoxDriver();
+	 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"); 
 		
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
 		driver.navigate().refresh();
 		driver.navigate().back();
